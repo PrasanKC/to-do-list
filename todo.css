@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(220, 232, 233);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial;
+  padding: 20px;
+}
+
+.css-title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.css-add,
+.css-delete {
+  border: none;
+  background-color: green;
+  color: white;
+  padding: 8px 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.css-delete {
+  background-color: darkred;
+}
+
+.css-output,
+.css-input-grid {
+  display: grid;
+  grid-template-columns: 500px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  font-size: 17px;
+  padding: 5px;
+}
+
+.css-input {
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  outline: none;
+  font-size: 16px;
+}
+
+.css-input-grid {
+  margin-bottom: 20px;
+  align-items: stretch;
+}
+
+.divOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
